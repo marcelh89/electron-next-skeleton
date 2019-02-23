@@ -16,10 +16,10 @@ app.on('ready', async () => {
     height: 600
   })
 
-  const devPath = 'http://localhost:8000/start'
+  const devPath = 'http://localhost:8000/index'
 
   const prodPath = format({
-    pathname: resolve('renderer/out/start/index.html'),
+    pathname: resolve('renderer/out/index/index.html'),
     protocol: 'file:',
     slashes: true
   })
